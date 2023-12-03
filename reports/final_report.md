@@ -11,7 +11,7 @@ The dataset used for building the recommender system consists of user informatio
 3. **Data Preparation**: Merged the datasets and created a Surprise Dataset for collaborative filtering.
 
 ## Model Implementation
-We implemented a collaborative filtering recommender system using the Surprise library. The KNNBasic algorithm with cosine similarity was chosen for its simplicity and effectiveness in capturing user-item interactions.
+I implemented a collaborative filtering recommender system using the Surprise library. The KNNBasic algorithm with cosine similarity was chosen for its simplicity and effectiveness in capturing user-item interactions.
 
 ## Model Advantages and Disadvantages
 ### Advantages
@@ -28,7 +28,7 @@ We implemented a collaborative filtering recommender system using the Surprise l
 The training process involved loading the data, creating a Surprise Dataset, splitting it into training and test sets, and training the KNNBasic collaborative filtering model. The training parameters were set to default values for simplicity.
 
 ## Evaluation
-We evaluated the model using both the training set and a separate test set (`u1_test`). The evaluation metrics included Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
+I evaluated the model using both the training set and a separate test set (`u1_test`). The evaluation metrics included Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
 
 ## Results
 The model achieved the following results:

@@ -33,10 +33,10 @@ I evaluated the model using both the training set and a separate test set (`u1_t
 ## Results
 The model achieved the following results:
 
-- **Training Set RMSE**: [Training RMSE]
-- **Training Set MAE**: [Training MAE]
+- **Training Set RMSE**: 0.8640246570455596
+- **Training Set MAE**: 0.6765519172465901
 
-- **Test Set RMSE**: [Test RMSE]
-- **Test Set MAE**: [Test MAE]
+- **Test Set RMSE**: 0.826080041507462
+- **Test Set MAE**: 0.6474142119506778
 
 These metrics provide insights into the model's performance, with lower values indicating better accuracy. Further optimizations and experimentation with different algorithms can be explored to improve the recommender system's effectiveness.
